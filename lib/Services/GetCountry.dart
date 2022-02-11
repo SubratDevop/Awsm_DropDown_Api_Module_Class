@@ -4,7 +4,7 @@ import 'package:practiceflutter/Models/CountryModel.dart';
 import 'package:http/http.dart' as http;
 
 // ignore: camel_case_types
-class Service_getTrainer {
+class Service_country {
   Future<CountryModel> fetchCountry() async {
     // ignore: prefer_typing_uninitialized_variables
     var countrymodel;

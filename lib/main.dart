@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     super.initState();
 
-    Service_getTrainer().fetchCountry().then((c) {
+    Service_country().fetchCountry().then((c) {
       setState(() {
         countryModel = c;
       });
